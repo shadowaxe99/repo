@@ -1,4 +1,3 @@
-```javascript
 // Importing dependencies
 import { characters, aiFacts, achievements, leaderboard } from './assets/data';
 import { typeWriterEffect, playAudio, displayTooltip, updateUIText, applyCSSAnimation, randomSelection, redesignUI, displayDynamicTooltip, embedGraph, displayModalPopup, openFeedbackForm, inviteFriend, displayVersionUpdates, reportBug } from './utils';
@@ -62,4 +61,3 @@ document.getElementById('feedbackButton').addEventListener('click', openFeedback
 document.getElementById('inviteFriend').addEventListener('click', inviteFriend);
 document.getElementById('versionUpdates').addEventListener('click', displayVersionUpdates);
 document.getElementById('bugReport').addEventListener('click', reportBug);
-```
