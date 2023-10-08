@@ -1,0 +1,42 @@
+[
+    {
+        "factId": 1,
+        "factText": "AI can learn from its mistakes and improve over time."
+    },
+    {
+        "factId": 2,
+        "factText": "AI can process large amounts of data faster than any human."
+    },
+    {
+        "factId": 3,
+        "factText": "AI can recognize patterns in data that humans might miss."
+    },
+    {
+        "factId": 4,
+        "factText": "AI can work 24/7 without getting tired or bored."
+    },
+    {
+        "factId": 5,
+        "factText": "AI can perform tasks that are dangerous for humans."
+    },
+    {
+        "factId": 6,
+        "factText": "AI can help us make better decisions by providing data-driven insights."
+    },
+    {
+        "factId": 7,
+        "factText": "AI can automate repetitive tasks, freeing up time for humans to focus on creative and complex problems."
+    },
+    {
+        "factId": 8,
+        "factText": "AI can help us understand and predict complex systems, like the weather or the stock market."
+    },
+    {
+        "factId": 9,
+        "factText": "AI can help us explore places that are difficult for humans to reach, like deep sea or space."
+    },
+    {
+        "factId": 10,
+        "factText": "AI can help us create new forms of art and music by generating original content."
+    }
+]

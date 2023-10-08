@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Character 1",
+    "description": "This is a description of Character 1's unique abilities.",
+    "skillLevel": "Noob",
+    "image": "src/assets/images/characters/character1.png"
+  },
+  {
+    "id": 2,
+    "name": "Character 2",
+    "description": "This is a description of Character 2's unique abilities.",
+    "skillLevel": "Medium",
+    "image": "src/assets/images/characters/character2.png"
+  },
+  {
+    "id": 3,
+    "name": "Character 3",
+    "description": "This is a description of Character 3's unique abilities.",
+    "skillLevel": "Expert",
+    "image": "src/assets/images/characters/character3.png"
+  }
+]

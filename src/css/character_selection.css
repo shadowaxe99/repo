@@ -1,0 +1,64 @@
+/* Character Selection Page CSS */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.character-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.character-card:hover {
+    transform: scale(1.1);
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+}
+
+.character-description {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #0f0;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.character-card:hover .character-description {
+    display: block;
+}
+
+.skill-level {
+    margin-top: 10px;
+}
+
+.skill-level.noob {
+    color: #0f0;
+}
+
+.skill-level.medium {
+    color: #ff0;
+}
+
+.skill-level.expert {
+    color: #f00;
+}
