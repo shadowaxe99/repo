@@ -1,0 +1,54 @@
+/* Entry Page CSS */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#teaserText {
+    color: #00ff00;
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid #00ff00;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #00ff00; }
+}
+
+audio#audioCue {
+    display: none;
+}
+
+audio#butlerVoiceover {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#volumeControl {
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+    width: 50px;
+    height: 50px;
+}
+
+#muteButton {
+    position: absolute;
+    bottom: 10px;
+    right: 130px;
+    width: 50px;
+    height: 50px;
+}
